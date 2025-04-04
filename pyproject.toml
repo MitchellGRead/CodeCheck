@@ -10,7 +10,11 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License"
 ]
 dependencies = [
- "docker", "RestrictedPython", 
+ "docker>=7.1.0",
+ "fastapi>=0.115.12",
+ "restrictedpython>=8.0",
+ "rich>=14.0.0",
+ "uvicorn>=0.34.0",
 ]
 
 [build-system]

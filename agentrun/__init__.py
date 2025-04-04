@@ -317,7 +317,7 @@ class AgentRun:
                 container, command, timeout=120
             )
             if exit_code != 0:
-                return f"Failed to install dependency {dep}"
+                return f"Failed to install dependency - {dep}"
 
         return "Dependencies installed successfully."
 
